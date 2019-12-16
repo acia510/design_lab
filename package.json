@@ -1,0 +1,15 @@
+{
+  "name": "design_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/base.scss css/index.css",
+    "css:watch": "npm run compile:scss && npm run compile:scss -- -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
